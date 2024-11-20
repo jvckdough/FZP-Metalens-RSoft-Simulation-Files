@@ -6,11 +6,10 @@ boundary_max_y = 51
 boundary_min = 0
 boundary_min_y = 0
 cad_aspectratio = 1
-cad_ind_file = fzp_TE_grid002_005.ind
 cover_index = 1
 delta = 0.5039
 dimension = 3
-domain_max = 14
+domain_max = 5
 domain_min = -0.2
 eim = 0
 fdtd_bc_bottom = FDTD_BC_SYMMETRIC
@@ -49,10 +48,9 @@ launch_type = LAUNCH_PLANEWAVE
 launch_width = inf
 monitor_coords = 1
 polarization = 0
-prefix = fzp_TE_grid_002_005_XZ_YZ_XY
 radial = 1
 sim_tool = ST_FULLWAVE
-step_size = 0.05
+step_size = 0.1
 structure = STRUCT_CHANNEL
 width = 1
 
@@ -93066,6 +93064,22 @@ time_monitor 4896
 	begin.z = 7
 	begin.height = 50
 	begin.width = 0
+end time_monitor
+
+time_monitor 4897
+	profile_type = PROF_INACTIVE
+	color = 2
+	type = TIMEMON_EXTENDED
+	timeaverage = 2
+	complexmonitor = 1
+	monitoroutputmask = 0
+	fieldoutputmask = 270
+	frequencyanalysis = TIMEMON_FA_DFT
+	begin.x = 25
+	begin.y = 25
+	begin.z = 1.5
+	begin.height = 50
+	begin.width = 50
 end time_monitor
 
 
