@@ -11,7 +11,7 @@ from numpy import *
 # Inputs
 
 # Output Prefix
-prefix = 'menon'
+prefix = 'FZP'
 
 # Design Parameters
 F = 10                    # Lens Focal Length [um]
