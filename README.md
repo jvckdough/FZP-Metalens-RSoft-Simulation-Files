@@ -3,5 +3,6 @@ Metalenses and Fresnel Zone Plates (FZPs) represent two pioneering approaches to
 **Notes**
 
 * See Eden files for energy density results from FDTD simulations.
-* Gen files show scripts used to create device CAD files for simulation
+* Gen files show scripts used to create device CAD files (.ind) for simulation
 * Please see supplement for an in-depth description of methodology.
+* See .ind files for all simulations and devices files used for FDTD simulation in RSoft
